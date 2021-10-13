@@ -90,8 +90,8 @@ const renderHarrasmentBody = (item, index) => (
 const lastHarrasment = {
     header: [
         "Ville",
-        "Plainte",
         "Date",
+        "Plainte",
         "Type",
         "Status"
     ],
@@ -230,7 +230,7 @@ const Dashboard = () => {
                             />
                         </div>
                         <div className="card__footer">
-                            <Link to="/">Tout voir</Link>
+                            <Link to="/signalements">Tout voir</Link>
                         </div>
                     </div>
                 </div>
