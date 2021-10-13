@@ -10,14 +10,19 @@ import Table from '../components/table/Table'
 
 const chartOptions = {
     series: [{
-        name: 'Agressions Lille',
-        data: [40,70,20,90,36,80,30,91,60]
-    }, {
-        name: 'Aggressions Paris',
+        name: 'Signalements Lille',
+        data: [40,70,20,90,36,80,30,91,60, 98]
+    }, 
+    {
+        name: 'Signalements Marseille',
+        data: [46,51,31,76,39,100,39,85,62, 29]
+    },
+    {
+        name: 'Signalements Paris',
         data: [40, 30, 70, 80, 40, 16, 40, 20, 51, 10]
     }],
     options: {
-        color: ['#6ab04c', '#2980b9'],
+        color: ['#6ab04c', '#2980b9', '#3498db'],
         chart: {
             background: 'transparent'
         },
@@ -106,7 +111,7 @@ const lastHarrasment = {
         {
             ville: "Paris",
             date: "13 Oct 2021",
-            price: "Non",
+            plainte: "Non",
             lieu: "Transport",
             status: "Sexuel"
         },
@@ -185,6 +190,7 @@ const Dashboard = () => {
                 </div>
                 <div className="col-6">
                     <div className="card full-height">
+                        <h3 style={{textAlign: 'center', paddingBottom: '10px'}}>Signalements mensuels</h3>
                         {/* chart */}
                         <Chart 
                             options={themeReducer === 'theme-mode-dark' ? {
