@@ -1,6 +1,7 @@
 import React from 'react'
 import './topnav.css'
 import Dropdown from '../dropdown/Dropdown'
+import Theme from '../themes/Theme'
 import notifications from '../../assets/JsonData/notification.json'
 import user_image from '../../assets/images/me.png'
 import user_menu from '../../assets/JsonData/user_menus.json'
@@ -29,6 +30,15 @@ const renderUserToggle = (user) => (
     </div>
 )
 
+const renderUserMenu = (item, index) => (
+    <Link to="/" key={index}>
+        <div className="notification-item">
+            <i className={item.icon}></i>
+            <span>{item.content}</span>
+        </div>
+    </Link>
+)
+
 const Topnav = () => {
     return (
         <div className="topnav">
@@ -40,6 +50,8 @@ const Topnav = () => {
                 <div className="topnav__right-item">
                     <Dropdown 
                         customToggle={() => renderUserToggle(curr_user)}
+                        contentData={user_menu}
+                        renderItems={(item, index) => renderUserMenu(item, index)}
 
                     />
                     { /* dropdown */}
@@ -52,11 +64,9 @@ const Topnav = () => {
                     renderItems={(item, index) => renderNotificationItem(item, index)}
                     renderFooter={() => <Link to='/'>View all</Link>}
                 />
-                    { /* dropdown */}
                 </div>
                 <div className="topnav__right-item">
-                <Dropdown />
-                    { /* change theme */}
+                <Theme />
                 </div>
             </div>
         </div>

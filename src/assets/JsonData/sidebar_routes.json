@@ -5,8 +5,13 @@
         "icon": "bx bx-category-alt"
     },
     {
-        "display_name": "Harrasment",
-        "route": "/harassment",
+        "display_name": "Analytics",
+        "route": "/analytics",
+        "icon": "bx bx-bar-chart-alt"
+    },
+    {
+        "display_name": "Signalements",
+        "route": "/signalements",
         "icon": "bx bx-user-pin"
     },
     {
@@ -20,24 +25,9 @@
         "icon": "bx bx-cart"
     },
     {
-        "display_name": "Analytics",
-        "route": "/analytics",
-        "icon": "bx bx-bar-chart-alt"
-    },
-    {
         "display_name": "categories",
         "route": "/categories",
         "icon": "bx bx-list-ol"
-    },
-    {
-        "display_name": "discount",
-        "route": "/discount",
-        "icon": "bx bx-gift"
-    },
-    {
-        "display_name": "inventory",
-        "route": "/inventory",
-        "icon": "bx bx-store-alt"
     },
     {
         "display_name": "settings",

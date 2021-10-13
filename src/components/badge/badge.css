@@ -1,0 +1,22 @@
+.badge {
+    padding: 6px 11px;
+    color: var(--txt-white);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.badge-travail {
+    background-color: var(--main-color-red);
+}
+
+.badge-sexuel {
+    background-color: var(--main-color-green);
+}
+
+.badge-harcelement {
+    background-color: var(--main-color-blue);
+}
+
+.badge-cyber {
+    background-color: var(--main-color-orange);
+}

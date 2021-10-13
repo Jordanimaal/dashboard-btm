@@ -1,22 +1,22 @@
 [
     {
-        "icon": "bx bx-shopping-bag",
+        "icon": "bx bxs-hand-up",
         "count": "1,995",
-        "title": "Total sales"
+        "title": "Nombre total de signalements"
     },
     {
-        "icon": "bx bx-cart",
-        "count": "2,001",
-        "title": "Daily visits"
+        "icon": "bx bxs-calendar",
+        "count": "20",
+        "title": "Signalements ce jour"
     },
     {
-        "icon": "bx bx-dollar-circle",
-        "count": "$2,632",
-        "title": "Total income"
+        "icon": "bx bxs-calendar",
+        "count": "200",
+        "title": "Signalements de la semaine"
     },
     {
         "icon": "bx bx-receipt",
         "count": "1,711",
-        "title": "Total orders"
+        "title": "Signalements ce mois"
     }
 ]
