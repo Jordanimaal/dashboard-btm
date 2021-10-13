@@ -109,7 +109,7 @@ const lastHarrasment = {
             status: "Sexuel"
         },
         {
-            ville: "Paris",
+            ville: "Paris", 
             date: "13 Oct 2021",
             plainte: "Non",
             lieu: "Transport",

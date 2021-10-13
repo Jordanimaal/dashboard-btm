@@ -5,8 +5,8 @@
         "icon": "bx bx-category-alt"
     },
     {
-        "display_name": "Analytics",
-        "route": "/analytics",
+        "display_name": "Graphiques",
+        "route": "/graph",
         "icon": "bx bx-bar-chart-alt"
     },
     {
