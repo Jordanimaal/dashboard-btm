@@ -201,7 +201,7 @@ const Dashboard = () => {
                                 theme: {mode: 'light'}
                             }}
                             series={chartOptions.series}
-                            type='bar'
+                            type='line'
                             height='100%'
                         />
                     </div>
