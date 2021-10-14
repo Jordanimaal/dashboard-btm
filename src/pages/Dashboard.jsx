@@ -201,7 +201,7 @@ const Dashboard = () => {
                                 theme: {mode: 'light'}
                             }}
                             series={chartOptions.series}
-                            type='line'
+                            type='bar'
                             height='100%'
                         />
                     </div>
@@ -218,7 +218,7 @@ const Dashboard = () => {
                         />
                     </div>
                     <div className="card__footer">
-                        <Link to="/">Tout voir</Link>
+                        <Link to="/graph">Plus d'infos</Link>
                     </div>
                     </div>
                 </div>

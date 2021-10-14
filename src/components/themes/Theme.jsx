@@ -21,13 +21,13 @@ const mode_settings = [
 const color_settings = [
     {
         id: 'blue',
-        name: 'Blue',
+        name: 'Bleu',
         background: 'blue-color',
         class: 'theme-color-blue'
     },
     {
         id: 'red',
-        name: 'Red',
+        name: 'Rouge',
         background: 'red-color',
         class: 'theme-color-red'
     },
@@ -39,7 +39,7 @@ const color_settings = [
     },
     {
         id: 'green',
-        name: 'Green',
+        name: 'Vert',
         background: 'green-color',
         class: 'theme-color-green'
     },
@@ -111,12 +111,12 @@ const Theme = () => {
                 <i className='bx bx-palette'></i>
             </button>
             <div ref={menu_ref} className="theme-menu">
-                <h4>Theme settings</h4>
+                <h4>Paramètres du thème</h4>
                 <button className="theme-menu__close" onClick={() => closeMenu()}>
                     <i className='bx bx-x'></i>
                 </button>
                 <div className="theme-menu__select">
-                    <span>Choose mode</span>
+                    <span>Choisissez un mode</span>
                     <ul className="mode-list">
                         {
                             mode_settings.map((item, index) => (
@@ -131,7 +131,7 @@ const Theme = () => {
                     </ul>
                 </div>
                 <div className="theme-menu__select">
-                    <span>Choose color</span>
+                    <span>Choisissez une couleur</span>
                     <ul className="mode-list">
                         {
                             color_settings.map((item, index) => (
