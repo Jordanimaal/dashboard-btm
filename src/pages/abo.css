@@ -1,0 +1,7 @@
+#divCard {
+    transition: 0.3s;
+}
+
+#divCard:hover {
+    background-color: #bdc3c7;
+}
