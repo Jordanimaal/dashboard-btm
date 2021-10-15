@@ -2,12 +2,12 @@ import React, { Component, useState, useEffect } from 'react'
 import listePays from '../assets/JsonData/pays.js'
 import '../components/topnav/topnav.css'
 import '../components/form/form.css'
-export class Form extends Component {
+    export class Form extends Component {
 
-    constructor() {
-        super();
-        this.state = { cities: [], isLoaded: false }
-    }
+        constructor() {
+            super();
+            this.state = { cities: [], isLoaded: false }
+        }
 
     getVille = async (url) => {
         fetch(url)
@@ -77,22 +77,34 @@ export class Form extends Component {
     }
 
     envoyerDonnees() {
-        let age = document.querySelector("#inputAge").value;
-        let ville = document.querySelector("#inputVille").value
-        let date = document.querySelector("#inputDate").value;
-        let genre = document.querySelector("#inputGenre").value;
-        let type = document.querySelector("#inputTypeAgressions").value;
-        let pays = document.querySelector("#inputPays").value;
-        console.log("Ville:", ville, "Date:", date, "age:", age, "Genre:", genre, "Type:", type, "Pays:", pays);
-        let requete = {
-            "location": ville,
-            "country": pays,
-            "time": date,
-            "gender": genre,
-            "age": age,
-            "type": type
-        }
-        console.log(requete);
+        const age = document.querySelector("#inputAge").value;
+        const ville = document.querySelector("#inputVille").value
+        const date = document.querySelector("#inputDate").value;
+        const genre = document.querySelector("#inputGenre").value;
+        const type = document.querySelector("#inputTypeAgressions").value;
+        const pays = document.querySelector("#inputPays").value;
+        const requete = JSON.stringify({
+            'city': ville.toString(),
+            'country': pays.toString(),
+            'time': date.toString(),
+            'gender': genre.toString(),
+            'age': parseInt(age),
+            'type': type.toString()
+        });
+        fetch("https://balancetonmichel.herokuapp.com/violences/post", {
+            "method": "POST",
+            "headers": {
+                "Content-Type": "application/json",
+            },
+            "body": requete
+        })
+        .then(response => response.json())
+        .then(response => {
+            console.log(response)
+        })
+        .catch(err => {
+            console.log(err);
+        });
 
     }
 
@@ -103,7 +115,6 @@ export class Form extends Component {
                     {pays.name}
                 </option>);
         return (
-            
             <div className="card">
                 <p id="champErreur"></p>
                 <div className="topbar">
@@ -155,6 +166,4 @@ export class Form extends Component {
             </div>
         )
     };
-
 }
-

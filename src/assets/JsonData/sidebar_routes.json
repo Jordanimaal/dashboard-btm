@@ -28,5 +28,10 @@
         "display_name": "settings",
         "route": "/settings",
         "icon": "bx bx-cog"
+    },
+    {
+        "display_name": "À propos",
+        "route": "/about",
+        "icon": "bx bx-info-circle"
     }
 ]
