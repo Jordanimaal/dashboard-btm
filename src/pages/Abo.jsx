@@ -23,8 +23,8 @@ const Abo = () => {
             <h3 style={{textAlign: 'center'}}>Formule Freemium</h3>
             <img src={aboImg.image} alt="" style={{height: '150px'}}/> 
                 <ul>
-                    <li>-Accès aux données gratuites</li>
-                    <li>-Exportation des graphiques sous format JPG*</li>
+                    <li>•Accès aux données gratuites</li>
+                    <li>•Exportation des graphiques sous format JPG*</li>
                 </ul>
                 <h2 style={{paddingTop: '250px'}}>Gratuit</h2>
             </div>
@@ -33,10 +33,10 @@ const Abo = () => {
             <h3 style={{textAlign: 'center'}}>Formule Premium</h3>
             <img src={premiumImg.image} alt="" style={{height: '150px'}}/> 
                 <ul>
-                    <li>-Accès aux données gratuites et premium.</li>
-                    <li>-Exportation des graphiques JPG, PNG, SVG, CSV.</li>
-                    <li>-Accès à la visualisation avancée des données.</li>
-                    <li>-Possibilite d'avoir certains graphiques sur mesure*</li>
+                    <li>•Accès aux données gratuites et premium</li>
+                    <li>•Exportation des graphiques JPG, PNG, SVG, CSV</li>
+                    <li>•Accès à la visualisation avancée des données</li>
+                    <li>•Possibilite d'avoir certains graphiques sur mesure*</li>
                 </ul>
                 <h2 style={{paddingTop: '130px'}}>99.99€/Mois</h2>
             </div>
@@ -45,12 +45,12 @@ const Abo = () => {
             <h3 style={{textAlign: 'center'}}>Formule Pro</h3>
             <img src={proImg.image} alt="" style={{height: '150px'}}/> 
                 <ul>
-                    <li>-Accès à l'ensemble des données.</li>
-                    <li>-Exportation des graphiques sous toutes les formes.</li>
-                    <li>-Accès à la visualisation avancée des données.</li>
-                    <li>-Possibilite d'avoir tous les graphiques sur mesure.</li>
-                    <li>-Accès à l'API.</li>
-                    <li>-Accès à des données privées.</li>
+                    <li>•Accès à l'ensemble des données</li>
+                    <li>•Exportation des graphiques sous toutes les formes</li>
+                    <li>•Accès à la visualisation avancée des données</li>
+                    <li>•Possibilite d'avoir tous les graphiques sur mesure</li>
+                    <li>•Accès à l'API</li>
+                    <li>•Accès à des données privées</li>
                 </ul>
                 <h2 style={{paddingTop: '110px'}}>199.99€/Mois</h2>
             </div>

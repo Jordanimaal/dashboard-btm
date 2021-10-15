@@ -73,7 +73,7 @@ const topHarassment = {
             "Moyenne": "12"
         },
         {
-            "Ville": "Nimes",
+            "Ville": "Nîmes",
             "Mois": "1000",
             "Moyenne": "11"
         }
@@ -98,7 +98,7 @@ const lastHarrasment = {
         "Date",
         "Plainte",
         "Type",
-        "Status"
+        "Statut"
     ],
     body: [
         {
@@ -128,7 +128,7 @@ const lastHarrasment = {
             date: "10 Oct 2021",
             plainte: "Oui",
             lieu: "Travail",
-            status: "Harcelement"
+            status: "Harcèlement"
         },
         {
             ville: "Lorient",
@@ -143,7 +143,7 @@ const lastHarrasment = {
 const harrasmentType = {
     "Travail": "travail",
     "Sexuel": "sexuel",
-    "Harcelement": "harcelement",
+    "Harcèlement": "harcelement",
     "Cyber": "cyber"
 }
 

@@ -87,7 +87,7 @@ const Graph = () => {
                 curve: 'smooth'
             },
             xaxis: {
-                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep']
+                categories: ['Rue', 'Travail', 'Etudes', 'Transports']
             },
             legend: {
                 position: 'bottom'
@@ -118,7 +118,7 @@ const Graph = () => {
     return (
         <div className="row" style={{paddingLeft: '30px'}}>
             <div className="card" style={{width: '600px' }}>
-            <h3 style={{textAlign: 'center'}}>Villes comptants le plus de signalements</h3>
+            <h3 style={{textAlign: 'center'}}>Villes comptant le plus de signalements</h3>
                 <Chart options={options} series={series} type='bar' width={500} height={300}  />
             </div>
                 <div style={{width: '60px'}}></div>
