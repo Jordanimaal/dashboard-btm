@@ -1,7 +1,7 @@
 [
     {
         "icon": "bx bxs-hand-up",
-        "count": "1,995",
+        "count": "1 995",
         "title": "Nombre total de signalements"
     },
     {
@@ -16,7 +16,7 @@
     },
     {
         "icon": "bx bx-receipt",
-        "count": "1,711",
+        "count": "1 711",
         "title": "Signalements ce mois"
     }
 ]

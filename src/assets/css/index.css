@@ -104,10 +104,6 @@ input:focus {
     height: calc(100% - 30px);
 }
 
-.card__header {
-    text-transform: capitalize;
-}
-
 .card > div ~ div {
     margin-top: 30px;
 }
