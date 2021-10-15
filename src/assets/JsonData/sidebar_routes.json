@@ -15,7 +15,7 @@
         "icon": "bx bx-user-pin"
     },
     {
-        "display_name": "Abonnements",
+        "display_name": "Salut",
         "route": "/abo",
         "icon": "bx bx-cart"
     },
