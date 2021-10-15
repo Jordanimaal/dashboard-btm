@@ -49,7 +49,7 @@ const Graph = () => {
         },
         xaxis: {
             color: ['white'],
-            categories: ['Sexuel', 'Cyber', 'Travail', 'Harcelement']
+            categories: ['Sexuel', 'Cyber', 'Travail', 'Harcèlement']
         }
     })
 
