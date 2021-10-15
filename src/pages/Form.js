@@ -85,7 +85,7 @@ import '../components/form/form.css'
         const pays = document.querySelector("#inputPays").value;
         const requete = JSON.stringify({
             'city': ville.toString(),
-            'country': pays.toString(),
+            'country': "France",
             'time': date.toString(),
             'gender': genre.toString(),
             'age': parseInt(age),
