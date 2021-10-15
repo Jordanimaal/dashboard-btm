@@ -1,0 +1,102 @@
+.topbar{
+   display:flex;
+    
+}
+.box{
+    width: 50%;
+    margin: 3%;
+    min-height: 30%;
+}
+
+label {
+    font-family: roboto;
+    font-size: 20px;
+    margin:10px;
+    margin-top:10px;
+    padding-bottom: 10px;
+
+}
+
+select{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+option {
+    font-family: roboto;
+    margin: 50%;
+}
+input{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+#champErreur{
+    color: white;
+    background-color: red;
+    border-radius: var(--border-radius);
+    text-align: center;
+    margin-left: 5%;
+}
+
+h1{
+    margin : 10px
+}
+.listeSuggestion{
+    margin: 10px;
+}
+
+#boutonSubmit{
+align-self: center;
+ border-radius: var(--border-radius);
+color: var(--txt-color);
+background-color: #019707;
+padding :15px;
+font-family: roboto;
+margin-left: 45%;
+border-color:#4caf50;
+color:white;
+
+}
+
+
+
+@-webkit-keyframes scale-in-top {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-top {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      opacity: 1;
+    }
+  }
+
+  
+  .scale-in-top {
+	-webkit-animation: scale-in-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: scale-in-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+.scale-out-top{-webkit-animation:scale-in-top .5s cubic-bezier(.55,.085,.68,.53) reverse both;animation:scale-in-top .5s cubic-bezier(.55,.085,.68,.53) reverse both}
+@-webkit-keyframes scale-in-top{0%{-webkit-transform:scale(0);transform:scale(0);-webkit-transform-origin:50% 0;transform-origin:50% 0;opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 0;transform-origin:50% 0;opacity:1}}@keyframes scale-in-top{0%{-webkit-transform:scale(0);transform:scale(0);-webkit-transform-origin:50% 0;transform-origin:50% 0;opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 0;transform-origin:50% 0;opacity:1}}
