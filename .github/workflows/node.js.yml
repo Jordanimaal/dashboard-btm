@@ -35,6 +35,8 @@ jobs:
 
     - name: Deploy
       run: |
+        git config --global user.email "jordan.corailler@enigma-school.com"
+        git config --global user.name "Jordan Corailler"
         git remote set-url origin https://${github_token}@github.com/${repository}/
         npm run deploy
       env:
