@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/btm-dashboard/static/css/main.d2ec78d9.chunk.css",
-    "main.js": "/btm-dashboard/static/js/main.e1022a03.chunk.js",
-    "main.js.map": "/btm-dashboard/static/js/main.e1022a03.chunk.js.map",
-    "runtime-main.js": "/btm-dashboard/static/js/runtime-main.460927d6.js",
-    "runtime-main.js.map": "/btm-dashboard/static/js/runtime-main.460927d6.js.map",
-    "static/js/2.33e3cb88.chunk.js": "/btm-dashboard/static/js/2.33e3cb88.chunk.js",
-    "static/js/2.33e3cb88.chunk.js.map": "/btm-dashboard/static/js/2.33e3cb88.chunk.js.map",
-    "static/js/3.f12c6e75.chunk.js": "/btm-dashboard/static/js/3.f12c6e75.chunk.js",
-    "static/js/3.f12c6e75.chunk.js.map": "/btm-dashboard/static/js/3.f12c6e75.chunk.js.map",
-    "index.html": "/btm-dashboard/index.html",
-    "static/css/main.d2ec78d9.chunk.css.map": "/btm-dashboard/static/css/main.d2ec78d9.chunk.css.map",
-    "static/js/2.33e3cb88.chunk.js.LICENSE.txt": "/btm-dashboard/static/js/2.33e3cb88.chunk.js.LICENSE.txt",
-    "static/media/boxicons.min.css": "/btm-dashboard/static/media/boxicons.cbd149c5.ttf",
-    "static/media/logoENIGMA.1cd21ef2.png": "/btm-dashboard/static/media/logoENIGMA.1cd21ef2.png",
-    "static/media/me.a5fd6496.png": "/btm-dashboard/static/media/me.a5fd6496.png",
-    "static/media/premium.a13f67b0.png": "/btm-dashboard/static/media/premium.a13f67b0.png",
-    "static/media/pro.3940df6d.png": "/btm-dashboard/static/media/pro.3940df6d.png"
+    "main.css": "/dashboard-btm/static/css/main.e8d8e1cf.chunk.css",
+    "main.js": "/dashboard-btm/static/js/main.e1022a03.chunk.js",
+    "main.js.map": "/dashboard-btm/static/js/main.e1022a03.chunk.js.map",
+    "runtime-main.js": "/dashboard-btm/static/js/runtime-main.e36bd1ba.js",
+    "runtime-main.js.map": "/dashboard-btm/static/js/runtime-main.e36bd1ba.js.map",
+    "static/js/2.33e3cb88.chunk.js": "/dashboard-btm/static/js/2.33e3cb88.chunk.js",
+    "static/js/2.33e3cb88.chunk.js.map": "/dashboard-btm/static/js/2.33e3cb88.chunk.js.map",
+    "static/js/3.f12c6e75.chunk.js": "/dashboard-btm/static/js/3.f12c6e75.chunk.js",
+    "static/js/3.f12c6e75.chunk.js.map": "/dashboard-btm/static/js/3.f12c6e75.chunk.js.map",
+    "index.html": "/dashboard-btm/index.html",
+    "static/css/main.e8d8e1cf.chunk.css.map": "/dashboard-btm/static/css/main.e8d8e1cf.chunk.css.map",
+    "static/js/2.33e3cb88.chunk.js.LICENSE.txt": "/dashboard-btm/static/js/2.33e3cb88.chunk.js.LICENSE.txt",
+    "static/media/boxicons.min.css": "/dashboard-btm/static/media/boxicons.cbd149c5.ttf",
+    "static/media/logoENIGMA.1cd21ef2.png": "/dashboard-btm/static/media/logoENIGMA.1cd21ef2.png",
+    "static/media/me.a5fd6496.png": "/dashboard-btm/static/media/me.a5fd6496.png",
+    "static/media/premium.a13f67b0.png": "/dashboard-btm/static/media/premium.a13f67b0.png",
+    "static/media/pro.3940df6d.png": "/dashboard-btm/static/media/pro.3940df6d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.460927d6.js",
+    "static/js/runtime-main.e36bd1ba.js",
     "static/js/2.33e3cb88.chunk.js",
-    "static/css/main.d2ec78d9.chunk.css",
+    "static/css/main.e8d8e1cf.chunk.css",
     "static/js/main.e1022a03.chunk.js"
   ]
 }
