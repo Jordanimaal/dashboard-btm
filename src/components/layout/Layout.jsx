@@ -29,7 +29,7 @@ const Layout = () => {
 
 
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename="/dashboard-btm">
             <Route render={(props) =>(
                 <div className={`layout ${themeReducer.mode} ${themeReducer.color}`}>
                     <Sidebar {...props}/>
