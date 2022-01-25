@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/btm-dashboard/static/css/main.d2ec78d9.chunk.css",
-    "main.js": "/btm-dashboard/static/js/main.26a9d861.chunk.js",
-    "main.js.map": "/btm-dashboard/static/js/main.26a9d861.chunk.js.map",
+    "main.js": "/btm-dashboard/static/js/main.4a5a01ad.chunk.js",
+    "main.js.map": "/btm-dashboard/static/js/main.4a5a01ad.chunk.js.map",
     "runtime-main.js": "/btm-dashboard/static/js/runtime-main.460927d6.js",
     "runtime-main.js.map": "/btm-dashboard/static/js/runtime-main.460927d6.js.map",
-    "static/js/2.5e1108d0.chunk.js": "/btm-dashboard/static/js/2.5e1108d0.chunk.js",
-    "static/js/2.5e1108d0.chunk.js.map": "/btm-dashboard/static/js/2.5e1108d0.chunk.js.map",
+    "static/js/2.33e3cb88.chunk.js": "/btm-dashboard/static/js/2.33e3cb88.chunk.js",
+    "static/js/2.33e3cb88.chunk.js.map": "/btm-dashboard/static/js/2.33e3cb88.chunk.js.map",
     "static/js/3.f12c6e75.chunk.js": "/btm-dashboard/static/js/3.f12c6e75.chunk.js",
     "static/js/3.f12c6e75.chunk.js.map": "/btm-dashboard/static/js/3.f12c6e75.chunk.js.map",
     "index.html": "/btm-dashboard/index.html",
     "static/css/main.d2ec78d9.chunk.css.map": "/btm-dashboard/static/css/main.d2ec78d9.chunk.css.map",
-    "static/js/2.5e1108d0.chunk.js.LICENSE.txt": "/btm-dashboard/static/js/2.5e1108d0.chunk.js.LICENSE.txt",
+    "static/js/2.33e3cb88.chunk.js.LICENSE.txt": "/btm-dashboard/static/js/2.33e3cb88.chunk.js.LICENSE.txt",
     "static/media/boxicons.min.css": "/btm-dashboard/static/media/boxicons.cbd149c5.ttf",
     "static/media/logoENIGMA.1cd21ef2.png": "/btm-dashboard/static/media/logoENIGMA.1cd21ef2.png",
     "static/media/me.a5fd6496.png": "/btm-dashboard/static/media/me.a5fd6496.png",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.460927d6.js",
-    "static/js/2.5e1108d0.chunk.js",
+    "static/js/2.33e3cb88.chunk.js",
     "static/css/main.d2ec78d9.chunk.css",
-    "static/js/main.26a9d861.chunk.js"
+    "static/js/main.4a5a01ad.chunk.js"
   ]
 }
