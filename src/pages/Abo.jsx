@@ -50,7 +50,7 @@ const Abo = () => {
                     <li>•Accès à la visualisation avancée des données</li>
                     <li>•Possibilite d'avoir tous les graphiques sur mesure</li>
                     <li>•Accès à l'API</li>
-                    <li>•Accès à des données privées, coucou</li>
+                    <li>•Accès à des données privées, coucou 2</li>
                 </ul>
                 <h2 style={{paddingTop: '110px'}}>199.99€/Mois</h2>
             </div>
