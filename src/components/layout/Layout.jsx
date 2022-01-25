@@ -5,7 +5,7 @@ import Sidebar from '../sidebar/Sidebar'
 import TopNav from '../topnav/TopNav'
 import Routes from '../Routes'
 
-import { BrowserRouter, Route } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
 
 import ThemeAction from '../../redux/actions/ThemeAction'
@@ -29,7 +29,7 @@ const Layout = () => {
 
 
     return (
-        <BrowserRouter basename="/dashboard-btm">
+        <HashRouter basename="/">
             <Route render={(props) =>(
                 <div className={`layout ${themeReducer.mode} ${themeReducer.color}`}>
                     <Sidebar {...props}/>
@@ -41,7 +41,7 @@ const Layout = () => {
                     </div>
                 </div>
             )}/>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
