@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from 'react'
+import React, { Component } from 'react'
 import listePays from '../assets/JsonData/pays.js'
 import '../components/topnav/topnav.css'
 import '../components/form/form.css'
@@ -23,13 +23,10 @@ import '../components/form/form.css'
         let champErreur = document.querySelector("#champErreur");
         champErreur.innerHTML = "";
         champErreur.id = "champErreur";
-        const erreur = document.querySelector("#codePostal");
-        let returnedValue = []
         let url = "https://geo.api.gouv.fr/communes?codePostal="
         let cp = document.querySelector("#cp").value;
         url += cp;
-        if (cp.length == 5) {
-            let valChampErreur = "";
+        if (cp.length === 5) {
             champErreur.innerHTML = null;
             champErreur.className="scale-out-top";
             this.getVille(url);
@@ -61,7 +58,6 @@ import '../components/form/form.css'
 
     }
     verifAge() {
-        console.log('here');
         let inputAge = document.querySelector('#inputAge');
         let age = parseInt(inputAge.value);
         let champErreur = document.querySelector("#champErreur");
@@ -82,7 +78,6 @@ import '../components/form/form.css'
         const date = document.querySelector("#inputDate").value;
         const genre = document.querySelector("#inputGenre").value;
         const type = document.querySelector("#inputTypeAgressions").value;
-        const pays = document.querySelector("#inputPays").value;
         const requete = JSON.stringify({
             'city': ville.toString(),
             'country': "France",

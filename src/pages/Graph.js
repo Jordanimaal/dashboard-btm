@@ -1,7 +1,5 @@
-import React, {Component,  useState }from 'react'
+import React, { useState }from 'react'
 import Chart from 'react-apexcharts'
-import Dashboard from './Dashboard'
-import Theme from '../components/themes/Theme'
 
 const Graph = () => {
 
@@ -41,7 +39,7 @@ const Graph = () => {
         }
     }
 
-    const [optionsType, setMyObject] = useState ({
+    const [optionsType] = useState ({
         color: ['white'],
         chart: {
             color: ['white'],
@@ -53,7 +51,7 @@ const Graph = () => {
         }
     })
 
-    const [seriesType, setMySeries] = useState([{
+    const [seriesType] = useState([{
         name: 'Type du signalement',
         data: [1009, 700, 950, 810, 598, 600]
     }])
@@ -99,7 +97,7 @@ const Graph = () => {
     }
 
 
-    const [options, setObject] = useState ({
+    const [options] = useState ({
         color: ['white'],
         chart: {
             color: ['white'],
@@ -111,7 +109,7 @@ const Graph = () => {
         }
     })
 
-    const [series, setSeries] = useState([{
+    const [series] = useState([{
         name: 'Villes comptant le plus de signalements',
         data: [9800, 12000, 12300, 8100, 5000, 6000]
     }])
