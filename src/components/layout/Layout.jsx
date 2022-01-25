@@ -29,7 +29,7 @@ const Layout = () => {
 
 
     return (
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter basename={window.location.pathname || ''}>
             <Route render={(props) =>(
                 <div className={`layout ${themeReducer.mode} ${themeReducer.color}`}>
                     <Sidebar {...props}/>
