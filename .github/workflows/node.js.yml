@@ -35,7 +35,7 @@ jobs:
 
     - name: Deploy
       run: |
-        git remote set-url origin https://${github_token}@github.com/${repository}/build
+        git remote set-url origin https://${github_token}@github.com/${repository}/
         npm run deploy
       env:
         github_token: ${{ secrets.BTM_SECRET }}
