@@ -28,12 +28,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - name: Cache dependencies
-      uses: actions/cache@v2
-      with:
-        path: |
-          **/node_modules
-        key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
 
     - name: Install dependencies
       run: npm install
@@ -43,8 +37,8 @@ jobs:
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
-        git remote set-url origin https://${github_token}@github.com/${repository}
+        git remote set-url origin https://${github_token}@github.com/${repository}/build
         npm run deploy
       env:
-        github_token: ${{ secrets.BTM_SECRet }}
+        github_token: ${{ secrets.BTM_SECRET }}
         repository: ${{ github.repository }}
