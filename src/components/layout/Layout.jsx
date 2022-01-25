@@ -29,7 +29,7 @@ const Layout = () => {
 
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Route render={(props) =>(
                 <div className={`layout ${themeReducer.mode} ${themeReducer.color}`}>
                     <Sidebar {...props}/>

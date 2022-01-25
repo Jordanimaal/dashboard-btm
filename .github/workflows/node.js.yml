@@ -41,4 +41,4 @@ jobs:
         npm run deploy
       env:
         github_token: ${{ secrets.BTM_SECRET }}
-        repository: ${{ github.repository }}
+        repository: ${{ github.repository }} 
