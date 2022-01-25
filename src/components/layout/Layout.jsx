@@ -29,7 +29,7 @@ const Layout = () => {
 
 
     return (
-        <HashRouter basename={window.location.pathname || ''}>
+        <HashRouter>
             <Route render={(props) =>(
                 <div className={`layout ${themeReducer.mode} ${themeReducer.color}`}>
                     <Sidebar {...props}/>
