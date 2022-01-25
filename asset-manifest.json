@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/btm-dashboard/build/static/css/main.a346c12e.chunk.css",
+    "main.js": "/btm-dashboard/build/static/js/main.b37cb8b7.chunk.js",
+    "main.js.map": "/btm-dashboard/build/static/js/main.b37cb8b7.chunk.js.map",
+    "runtime-main.js": "/btm-dashboard/build/static/js/runtime-main.ec3ca27e.js",
+    "runtime-main.js.map": "/btm-dashboard/build/static/js/runtime-main.ec3ca27e.js.map",
+    "static/js/2.5e1108d0.chunk.js": "/btm-dashboard/build/static/js/2.5e1108d0.chunk.js",
+    "static/js/2.5e1108d0.chunk.js.map": "/btm-dashboard/build/static/js/2.5e1108d0.chunk.js.map",
+    "static/js/3.f12c6e75.chunk.js": "/btm-dashboard/build/static/js/3.f12c6e75.chunk.js",
+    "static/js/3.f12c6e75.chunk.js.map": "/btm-dashboard/build/static/js/3.f12c6e75.chunk.js.map",
+    "index.html": "/btm-dashboard/build/index.html",
+    "static/css/main.a346c12e.chunk.css.map": "/btm-dashboard/build/static/css/main.a346c12e.chunk.css.map",
+    "static/js/2.5e1108d0.chunk.js.LICENSE.txt": "/btm-dashboard/build/static/js/2.5e1108d0.chunk.js.LICENSE.txt",
+    "static/media/boxicons.min.css": "/btm-dashboard/build/static/media/boxicons.cbd149c5.ttf",
+    "static/media/logoENIGMA.1cd21ef2.png": "/btm-dashboard/build/static/media/logoENIGMA.1cd21ef2.png",
+    "static/media/me.a5fd6496.png": "/btm-dashboard/build/static/media/me.a5fd6496.png",
+    "static/media/premium.a13f67b0.png": "/btm-dashboard/build/static/media/premium.a13f67b0.png",
+    "static/media/pro.3940df6d.png": "/btm-dashboard/build/static/media/pro.3940df6d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec3ca27e.js",
+    "static/js/2.5e1108d0.chunk.js",
+    "static/css/main.a346c12e.chunk.css",
+    "static/js/main.b37cb8b7.chunk.js"
+  ]
+}
