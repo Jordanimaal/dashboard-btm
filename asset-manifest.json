@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/btm-dashboard/static/css/main.d2ec78d9.chunk.css",
-    "main.js": "/btm-dashboard/static/js/main.16abc114.chunk.js",
-    "main.js.map": "/btm-dashboard/static/js/main.16abc114.chunk.js.map",
+    "main.js": "/btm-dashboard/static/js/main.e4c6a47e.chunk.js",
+    "main.js.map": "/btm-dashboard/static/js/main.e4c6a47e.chunk.js.map",
     "runtime-main.js": "/btm-dashboard/static/js/runtime-main.460927d6.js",
     "runtime-main.js.map": "/btm-dashboard/static/js/runtime-main.460927d6.js.map",
     "static/js/2.5e1108d0.chunk.js": "/btm-dashboard/static/js/2.5e1108d0.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.460927d6.js",
     "static/js/2.5e1108d0.chunk.js",
     "static/css/main.d2ec78d9.chunk.css",
-    "static/js/main.16abc114.chunk.js"
+    "static/js/main.e4c6a47e.chunk.js"
   ]
 }
