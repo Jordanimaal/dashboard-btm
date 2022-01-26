@@ -170,7 +170,7 @@ const Dashboard = () => {
 
     return (
         <div style={{paddingLeft: '30px'}}>
-            <h2 className="page-header">Dashboard</h2>
+            <h2 className="page-header">Dashboard v2</h2>
             <div className="row">
                 <div className="col-6">
                     <div className="row">
