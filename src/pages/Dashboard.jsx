@@ -189,7 +189,7 @@ const Dashboard = () => {
                 </div>
                 <div className="col-6">
                     <div className="card full-height">
-                        <h3 style={{textAlign: 'center', paddingBottom: '10px'}}>Signalements mensuels</h3>
+                        <h3 style={{textAlign: 'center', paddingBottom: '10px'}}>Signalements mensuels V2</h3>
                         {/* chart */}
                         <Chart 
                             options={themeReducer === 'theme-mode-dark' ? {
