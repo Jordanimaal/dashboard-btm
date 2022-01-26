@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.00168979.chunk.css",
-    "main.js": "/static/js/main.d67a300a.chunk.js",
-    "main.js.map": "/static/js/main.d67a300a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4df2bde4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4df2bde4.js.map",
-    "static/js/2.33e3cb88.chunk.js": "/static/js/2.33e3cb88.chunk.js",
-    "static/js/2.33e3cb88.chunk.js.map": "/static/js/2.33e3cb88.chunk.js.map",
-    "static/js/3.f12c6e75.chunk.js": "/static/js/3.f12c6e75.chunk.js",
-    "static/js/3.f12c6e75.chunk.js.map": "/static/js/3.f12c6e75.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.00168979.chunk.css.map": "/static/css/main.00168979.chunk.css.map",
-    "static/js/2.33e3cb88.chunk.js.LICENSE.txt": "/static/js/2.33e3cb88.chunk.js.LICENSE.txt",
-    "static/media/boxicons.min.css": "/static/media/boxicons.cbd149c5.ttf",
-    "static/media/logoENIGMA.1cd21ef2.png": "/static/media/logoENIGMA.1cd21ef2.png",
-    "static/media/me.a5fd6496.png": "/static/media/me.a5fd6496.png",
-    "static/media/premium.a13f67b0.png": "/static/media/premium.a13f67b0.png",
-    "static/media/pro.3940df6d.png": "/static/media/pro.3940df6d.png"
+    "main.css": "/dashboard-btm/static/css/main.e8d8e1cf.chunk.css",
+    "main.js": "/dashboard-btm/static/js/main.d67a300a.chunk.js",
+    "main.js.map": "/dashboard-btm/static/js/main.d67a300a.chunk.js.map",
+    "runtime-main.js": "/dashboard-btm/static/js/runtime-main.e36bd1ba.js",
+    "runtime-main.js.map": "/dashboard-btm/static/js/runtime-main.e36bd1ba.js.map",
+    "static/js/2.33e3cb88.chunk.js": "/dashboard-btm/static/js/2.33e3cb88.chunk.js",
+    "static/js/2.33e3cb88.chunk.js.map": "/dashboard-btm/static/js/2.33e3cb88.chunk.js.map",
+    "static/js/3.f12c6e75.chunk.js": "/dashboard-btm/static/js/3.f12c6e75.chunk.js",
+    "static/js/3.f12c6e75.chunk.js.map": "/dashboard-btm/static/js/3.f12c6e75.chunk.js.map",
+    "index.html": "/dashboard-btm/index.html",
+    "static/css/main.e8d8e1cf.chunk.css.map": "/dashboard-btm/static/css/main.e8d8e1cf.chunk.css.map",
+    "static/js/2.33e3cb88.chunk.js.LICENSE.txt": "/dashboard-btm/static/js/2.33e3cb88.chunk.js.LICENSE.txt",
+    "static/media/boxicons.min.css": "/dashboard-btm/static/media/boxicons.cbd149c5.ttf",
+    "static/media/logoENIGMA.1cd21ef2.png": "/dashboard-btm/static/media/logoENIGMA.1cd21ef2.png",
+    "static/media/me.a5fd6496.png": "/dashboard-btm/static/media/me.a5fd6496.png",
+    "static/media/premium.a13f67b0.png": "/dashboard-btm/static/media/premium.a13f67b0.png",
+    "static/media/pro.3940df6d.png": "/dashboard-btm/static/media/pro.3940df6d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4df2bde4.js",
+    "static/js/runtime-main.e36bd1ba.js",
     "static/js/2.33e3cb88.chunk.js",
-    "static/css/main.00168979.chunk.css",
+    "static/css/main.e8d8e1cf.chunk.css",
     "static/js/main.d67a300a.chunk.js"
   ]
 }
